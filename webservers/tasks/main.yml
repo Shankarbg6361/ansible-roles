@@ -1,0 +1,13 @@
+---
+- name: Install apache2
+  ansible.builtin.apt:
+    name: apache2
+    state: present
+  become: yes
+
+- name: Start apache2 service
+  ansible.builtin.service:
+    name: apache2
+    state: started
+    enabled: yes
+  become: yes

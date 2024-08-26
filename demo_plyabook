@@ -1,0 +1,18 @@
+---
+- name: Webserver setup
+  hosts: webservers
+  become: yes
+  roles:        # Use 'roles' instead of 'role'
+    - webservers
+
+- name: Print architecture
+  hosts: all
+  become: yes
+  roles:        # Use 'roles' instead of 'role'
+    - system-info
+
+- name: copy file
+  hosts: web01
+  become: yes
+  roles:        # Use 'roles' instead of 'role'
+    - copy-files
