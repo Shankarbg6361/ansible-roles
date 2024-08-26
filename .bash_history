@@ -231,3 +231,29 @@ netstat | grep unix | grep DGRAM
 netstat | grep DGRAM
 clear
 netstat | grep DGRAM
+ansible-galaxy role install fahadmughal5415.docker
+docker ps
+ls
+ls /etc
+ls /etc/ansible
+ls /etc/ansible/roles
+ls
+ls ~/ .ansible/roles
+ls ~/.ansible/roles
+git init
+git remote add origin https://github.com/Shankarbg6361/ansible-roles.git
+git add .
+git commit -m "adding ansibles roles"
+git push origin main
+git remote -v
+git push origin 
+git push origin master
+git branch -M main
+git remote add origin https://github.com/Shankarbg6361/ansible-roles.git
+git push -u origin main
+ls .ssh
+less .ssh/au*
+ssh keygen
+ssh -keygen
+ssh-keygen -t rsa -b 4096
+ls .ssh

@@ -21,11 +21,11 @@ $apache2
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1724684084,,"wq"
+|2,0,1724695346,,"wq"
+:%d
+|2,0,1724695298,,"%d"
 :q
 |2,0,1724684073,,"q"
-:%d
-|2,0,1724675586,,"%d"
 :q!
 |2,0,1724165350,,"q!"
 :/host_key
@@ -56,14 +56,179 @@ $apache2
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
+"0	LINE	0
 	- name: Print architecture
 	  hosts: all
 	  become: yes
 	  roles:        # Use 'roles' instead of 'role'
 	    - system-info
-|3,1,0,1,5,0,1724683548,"- name: Print architecture","  hosts: all","  become: yes","  roles:        # Use 'roles' instead of 'role'","    - system-info"
-"1	LINE	0
+|3,0,0,1,5,0,1724683548,"- name: Print architecture","  hosts: all","  become: yes","  roles:        # Use 'roles' instead of 'role'","    - system-info"
+""1	LINE	0
+	galaxy_info:
+	  author: your name
+	  description: your role description
+	  company: your company (optional)
+	
+	  # If the issue tracker for your role is not on github, uncomment the
+	  # next line and provide a value
+	  # issue_tracker_url: http://example.com/issue/tracker
+	
+	  # Choose a valid license ID from https://spdx.org - some suggested licenses:
+	  # - BSD-3-Clause (default)
+	  # - MIT
+	  # - GPL-2.0-or-later
+	  # - GPL-3.0-only
+	  # - Apache-2.0
+	  # - CC-BY-4.0
+	  license: license (GPL-2.0-or-later, MIT, etc)
+	
+	  min_ansible_version: 2.1
+	
+	  # If this a Container Enabled role, provide the minimum Ansible Container version.
+	  # min_ansible_container_version:
+	
+	  #
+	  # Provide a list of supported platforms, and for each platform a list of versions.
+	  # If you don't wish to enumerate all versions for a particular platform, use 'all'.
+	  # To view available platforms and versions (or releases), visit:
+	  # https://galaxy.ansible.com/api/v1/platforms/
+	  #
+	  # platforms:
+	  # - name: Fedora
+	  #   versions:
+	  #   - all
+	  #   - 25
+	  # - name: SomePlatform
+	  #   versions:
+	  #   - all
+	  #   - 1.0
+	  #   - 7
+	  #   - 99.99
+	
+	  galaxy_tags: []
+	    # List tags for your role here, one per line. A tag is a keyword that describes
+	    # and categorizes the role. Users find roles by searching for tags. Be sure to
+	    # remove the '[]' above, if you add tags to this list.
+	    #
+	    # NOTE: A tag is limited to a single word comprised of alphanumeric characters.
+	    #       Maximum 20 tags per role.
+	
+	dependencies: []
+|3,1,1,1,50,0,1724695298,"galaxy_info:","  author: your name","  description: your role description","  company: your company (optional)","","  # If the issue tracker for your role is not on github, uncomment the","  # next line and provide a value","  # issue_tracker_url: http://example.com/issue/tracker","","  # Choose a valid license ID from https://spdx.org - some suggested licenses:","  # - BSD-3-Clause (default)","  # - MIT","  # - GPL-2.0-or-later",>20
+|<"  # - GPL-3.0-only","  # - Apache-2.0","  # - CC-BY-4.0","  license: license (GPL-2.0-or-later, MIT, etc)","","  min_ansible_version: 2.1","","  # If this a Container Enabled role, provide the minimum Ansible Container version.","  # min_ansible_container_version:","","  #","  # Provide a list of supported platforms, and for each platform a list of versions.","  # If you don't wish to enumerate all versions for a particular platform, use 'all'.",>68
+|<"  # To view available platforms and versions (or releases), visit:","  # https://galaxy.ansible.com/api/v1/platforms/","  #","  # platforms:","  # - name: Fedora","  #   versions:","  #   - all","  #   - 25","  # - name: SomePlatform","  #   versions:","  #   - all","  #   - 1.0","  #   - 7","  #   - 99.99","","  galaxy_tags: []","    # List tags for your role here, one per line. A tag is a keyword that describes",>84
+|<"    # and categorizes the role. Users find roles by searching for tags. Be sure to","    # remove the '[]' above, if you add tags to this list.","    #","    # NOTE: A tag is limited to a single word comprised of alphanumeric characters.","    #       Maximum 20 tags per role.","","dependencies: []"
+"2	LINE	0
+	galaxy_info:
+	  author: your name
+	  description: your role description
+	  company: your company (optional)
+	
+	  # If the issue tracker for your role is not on github, uncomment the
+	  # next line and provide a value
+	  # issue_tracker_url: http://example.com/issue/tracker
+	
+	  # Choose a valid license ID from https://spdx.org - some suggested licenses:
+	  # - BSD-3-Clause (default)
+	  # - MIT
+	  # - GPL-2.0-or-later
+	  # - GPL-3.0-only
+	  # - Apache-2.0
+	  # - CC-BY-4.0
+	  license: license (GPL-2.0-or-later, MIT, etc)
+	
+	  min_ansible_version: 2.1
+	
+	  # If this a Container Enabled role, provide the minimum Ansible Container version.
+	  # min_ansible_container_version:
+	
+	  #
+	  # Provide a list of supported platforms, and for each platform a list of versions.
+	  # If you don't wish to enumerate all versions for a particular platform, use 'all'.
+	  # To view available platforms and versions (or releases), visit:
+	  # https://galaxy.ansible.com/api/v1/platforms/
+	  #
+	  # platforms:
+	  # - name: Fedora
+	  #   versions:
+	  #   - all
+	  #   - 25
+	  # - name: SomePlatform
+	  #   versions:
+	  #   - all
+	  #   - 1.0
+	  #   - 7
+	  #   - 99.99
+	
+	  galaxy_tags: []
+	    # List tags for your role here, one per line. A tag is a keyword that describes
+	    # and categorizes the role. Users find roles by searching for tags. Be sure to
+	    # remove the '[]' above, if you add tags to this list.
+	    #
+	    # NOTE: A tag is limited to a single word comprised of alphanumeric characters.
+	    #       Maximum 20 tags per role.
+	
+	dependencies: []
+|3,0,2,1,50,0,1724695218,"galaxy_info:","  author: your name","  description: your role description","  company: your company (optional)","","  # If the issue tracker for your role is not on github, uncomment the","  # next line and provide a value","  # issue_tracker_url: http://example.com/issue/tracker","","  # Choose a valid license ID from https://spdx.org - some suggested licenses:","  # - BSD-3-Clause (default)","  # - MIT","  # - GPL-2.0-or-later",>20
+|<"  # - GPL-3.0-only","  # - Apache-2.0","  # - CC-BY-4.0","  license: license (GPL-2.0-or-later, MIT, etc)","","  min_ansible_version: 2.1","","  # If this a Container Enabled role, provide the minimum Ansible Container version.","  # min_ansible_container_version:","","  #","  # Provide a list of supported platforms, and for each platform a list of versions.","  # If you don't wish to enumerate all versions for a particular platform, use 'all'.",>68
+|<"  # To view available platforms and versions (or releases), visit:","  # https://galaxy.ansible.com/api/v1/platforms/","  #","  # platforms:","  # - name: Fedora","  #   versions:","  #   - all","  #   - 25","  # - name: SomePlatform","  #   versions:","  #   - all","  #   - 1.0","  #   - 7","  #   - 99.99","","  galaxy_tags: []","    # List tags for your role here, one per line. A tag is a keyword that describes",>84
+|<"    # and categorizes the role. Users find roles by searching for tags. Be sure to","    # remove the '[]' above, if you add tags to this list.","    #","    # NOTE: A tag is limited to a single word comprised of alphanumeric characters.","    #       Maximum 20 tags per role.","","dependencies: []"
+"3	LINE	0
+	galaxy_info:
+	  author: Shankar
+	  description: copy files
+	  company: infy
+	
+	  # If the issue tracker for your role is not on github, uncomment the
+	  # next line and provide a value
+	  # issue_tracker_url: http://example.com/issue/tracker
+	
+	  # Choose a valid license ID from https://spdx.org - some suggested licenses:
+	  # - BSD-3-Clause (default)
+	  # - MIT
+	  # - GPL-2.0-or-later
+	  # - GPL-3.0-only
+	  # - Apache-2.0
+	  # - CC-BY-4.0
+	  license: license (GPL-2.0-or-later, MIT, etc)
+	
+	  min_ansible_version: 2.1
+	
+	  # If this a Container Enabled role, provide the minimum Ansible Container version.
+	  # min_ansible_container_version:
+	
+	  #
+	  # Provide a list of supported platforms, and for each platform a list of versions.
+	  # If you don't wish to enumerate all versions for a particular platform, use 'all'.
+	  # To view available platforms and versions (or releases), visit:
+	  # https://galaxy.ansible.com/api/v1/platforms/
+	  #
+	  # platforms:
+	  # - name: Fedora
+	  #   versions:
+	  #   - all
+	  #   - 25
+	  # - name: SomePlatform
+	  #   versions:
+	  #   - all
+	  #   - 1.0
+	  #   - 7
+	  #   - 99.99
+	
+	  galaxy_tags: []
+	    # List tags for your role here, one per line. A tag is a keyword that describes
+	    # and categorizes the role. Users find roles by searching for tags. Be sure to
+	    # remove the '[]' above, if you add tags to this list.
+	    #
+	    # NOTE: A tag is limited to a single word comprised of alphanumeric characters.
+	    #       Maximum 20 tags per role.
+	
+	dependencies: []
+|3,0,3,1,50,0,1724695113,"galaxy_info:","  author: Shankar","  description: copy files","  company: infy","","  # If the issue tracker for your role is not on github, uncomment the","  # next line and provide a value","  # issue_tracker_url: http://example.com/issue/tracker","","  # Choose a valid license ID from https://spdx.org - some suggested licenses:","  # - BSD-3-Clause (default)","  # - MIT","  # - GPL-2.0-or-later","  # - GPL-3.0-only",>18
+|<"  # - Apache-2.0","  # - CC-BY-4.0","  license: license (GPL-2.0-or-later, MIT, etc)","","  min_ansible_version: 2.1","","  # If this a Container Enabled role, provide the minimum Ansible Container version.","  # min_ansible_container_version:","","  #","  # Provide a list of supported platforms, and for each platform a list of versions.","  # If you don't wish to enumerate all versions for a particular platform, use 'all'.",>68
+|<"  # To view available platforms and versions (or releases), visit:","  # https://galaxy.ansible.com/api/v1/platforms/","  #","  # platforms:","  # - name: Fedora","  #   versions:","  #   - all","  #   - 25","  # - name: SomePlatform","  #   versions:","  #   - all","  #   - 1.0","  #   - 7","  #   - 99.99","","  galaxy_tags: []","    # List tags for your role here, one per line. A tag is a keyword that describes",>84
+|<"    # and categorizes the role. Users find roles by searching for tags. Be sure to","    # remove the '[]' above, if you add tags to this list.","    #","    # NOTE: A tag is limited to a single word comprised of alphanumeric characters.","    #       Maximum 20 tags per role.","","dependencies: []"
+"4	LINE	0
 	---
 	- name: Print system information
 	  hosts: all
@@ -76,8 +241,8 @@ $apache2
 	    - name: Printing ansible_distribution
 	      debug:
 	        var: ansible_distribution
-|3,0,1,1,12,0,1724675586,"---","- name: Print system information","  hosts: all","  gather_facts: yes  # Ensure facts are gathered to use ansible_architecture and ansible_distribution","  tasks:","    - name: Printing architecture","      debug:","        var: ansible_architecture","","    - name: Printing ansible_distribution","      debug:","        var: ansible_distribution"
-"2	LINE	0
+|3,0,4,1,12,0,1724675586,"---","- name: Print system information","  hosts: all","  gather_facts: yes  # Ensure facts are gathered to use ansible_architecture and ansible_distribution","  tasks:","    - name: Printing architecture","      debug:","        var: ansible_architecture","","    - name: Printing ansible_distribution","      debug:","        var: ansible_distribution"
+"5	LINE	0
 	---
 	# tasks file for system-info
 	tasks:
@@ -87,8 +252,8 @@ $apache2
 	  - name: printing ansible_distribution
 	    debug:
 	      var: ansible_distribution
-|3,0,2,1,9,0,1724675529,"---","# tasks file for system-info","tasks:","  - name: printing architecture","    debug:","      var: ansible_architecture","  - name: printing ansible_distribution","    debug:","      var: ansible_distribution"
-"3	LINE	0
+|3,0,5,1,9,0,1724675529,"---","# tasks file for system-info","tasks:","  - name: printing architecture","    debug:","      var: ansible_architecture","  - name: printing ansible_distribution","    debug:","      var: ansible_distribution"
+"6	LINE	0
 	---
 	# tasks file for system-info
 	tasks:
@@ -98,8 +263,8 @@ $apache2
 	  - name: printing ansible_distribution
 	    debug:
 	      var: ansible_distribution
-|3,0,3,1,9,0,1724675492,"---","# tasks file for system-info","tasks:","  - name: printing architecture","    debug:","      var: ansible_architecture","  - name: printing ansible_distribution","    debug:","      var: ansible_distribution"
-"4	LINE	0
+|3,0,6,1,9,0,1724675492,"---","# tasks file for system-info","tasks:","  - name: printing architecture","    debug:","      var: ansible_architecture","  - name: printing ansible_distribution","    debug:","      var: ansible_distribution"
+"7	LINE	0
 	---
 	- name: Ensure Apache2 is installed and running
 	  hosts: your_target_hosts  # Replace this with your actual target hosts or groups
@@ -115,74 +280,116 @@ $apache2
 	        name: apache2
 	        state: started
 	        enabled: yes
-|3,0,4,1,15,0,1724675442,"---","- name: Ensure Apache2 is installed and running","  hosts: your_target_hosts  # Replace this with your actual target hosts or groups","  become: yes  # This elevates privilege to run tasks that require sudo","  tasks:","    - name: Install apache2","      ansible.builtin.apt:","        name: apache2","        state: present","","    - name: Start apache2 service","      ansible.builtin.service:","        name: apache2",>24
+|3,0,7,1,15,0,1724675442,"---","- name: Ensure Apache2 is installed and running","  hosts: your_target_hosts  # Replace this with your actual target hosts or groups","  become: yes  # This elevates privilege to run tasks that require sudo","  tasks:","    - name: Install apache2","      ansible.builtin.apt:","        name: apache2","        state: present","","    - name: Start apache2 service","      ansible.builtin.service:","        name: apache2",>24
 |<"        state: started","        enabled: yes"
-"5	LINE	0
+"8	LINE	0
 	---
 	# tasks file for webservers
-|3,0,5,1,2,0,1724675308,"---","# tasks file for webservers"
-"6	LINE	0
-	      enabled: yes
-|3,0,6,1,1,0,1724675266,"      enabled: yes"
-"7	LINE	0
-	tasks:
-	  - name: Install apache2
-	    ansible.builtin.apt:
-	      name: apache2
-	      state: present
-	
-	  - name: Start apache2 service
-	    ansible.builtin.service:
-	      name: apache2
-	      state: started
-|3,0,7,1,10,0,1724675264,"tasks:","  - name: Install apache2","    ansible.builtin.apt:","      name: apache2","      state: present","","  - name: Start apache2 service","    ansible.builtin.service:","      name: apache2","      state: started"
-"8	LINE	0
-	  role:
-	    - system-info
-|3,0,8,1,2,0,1724675199,"  role:","    - system-info"
+|3,0,8,1,2,0,1724675308,"---","# tasks file for webservers"
 "9	LINE	0
-	---
-	- name: Webserver setup
-	  hosts: webservers
-	  become: yes
-	  role:
-	    - webservers
-	
-	- name: print architecture
-	  hosts: all
-	  become: yes
-|3,0,9,1,10,0,1724675196,"---","- name: Webserver setup","  hosts: webservers","  become: yes","  role:","    - webservers","","- name: print architecture","  hosts: all","  become: yes"
+	      enabled: yes
+|3,0,9,1,1,0,1724675266,"      enabled: yes"
 "-	CHAR	0
 	- name: weserver setup
 |3,0,36,0,1,0,1724154093,"- name: weserver setup"
 
 # File marks:
-'0  9  15  ~/copy-files/tasks/main.yml
-|4,48,9,15,1724684084,"~/copy-files/tasks/main.yml"
-'1  9  14  ~/copy-files/tasks/main.yml
-|4,49,9,14,1724684073,"~/copy-files/tasks/main.yml"
-'2  9  14  ~/copy-files/tasks/main.yml
-|4,50,9,14,1724684057,"~/copy-files/tasks/main.yml"
-'3  9  14  ~/copy-files/tasks/main.yml
-|4,51,9,14,1724684057,"~/copy-files/tasks/main.yml"
-'4  18  15  ~/demo_plyabook
-|4,52,18,15,1724683586,"~/demo_plyabook"
-'5  6  35  ~/copy-files/tasks/main.yml
-|4,53,6,35,1724683520,"~/copy-files/tasks/main.yml"
-'6  7  12  ~/copy-files/tasks/main.yml
-|4,54,7,12,1724683520,"~/copy-files/tasks/main.yml"
-'7  6  35  ~/copy-files/tasks/main.yml
-|4,55,6,35,1724683520,"~/copy-files/tasks/main.yml"
-'8  7  12  ~/copy-files/tasks/main.yml
-|4,56,7,12,1724683520,"~/copy-files/tasks/main.yml"
-'9  6  35  ~/copy-files/tasks/main.yml
-|4,57,6,35,1724683520,"~/copy-files/tasks/main.yml"
+'0  2  16  ~/system-info/meta/main.yml
+|4,48,2,16,1724695346,"~/system-info/meta/main.yml"
+'1  2  16  ~/webservers/meta/main.yml
+|4,49,2,16,1724695274,"~/webservers/meta/main.yml"
+'2  10  11  ~/copy-files/meta/main.yml
+|4,50,10,11,1724695185,"~/copy-files/meta/main.yml"
+'3  9  15  ~/copy-files/tasks/main.yml
+|4,51,9,15,1724684084,"~/copy-files/tasks/main.yml"
+'4  9  14  ~/copy-files/tasks/main.yml
+|4,52,9,14,1724684073,"~/copy-files/tasks/main.yml"
+'5  9  14  ~/copy-files/tasks/main.yml
+|4,53,9,14,1724684057,"~/copy-files/tasks/main.yml"
+'6  9  14  ~/copy-files/tasks/main.yml
+|4,54,9,14,1724684057,"~/copy-files/tasks/main.yml"
+'7  18  15  ~/demo_plyabook
+|4,55,18,15,1724683586,"~/demo_plyabook"
+'8  6  35  ~/copy-files/tasks/main.yml
+|4,56,6,35,1724683520,"~/copy-files/tasks/main.yml"
+'9  7  12  ~/copy-files/tasks/main.yml
+|4,57,7,12,1724683520,"~/copy-files/tasks/main.yml"
 
 # Jumplist (newest first):
+-'  2  16  ~/system-info/meta/main.yml
+|4,39,2,16,1724695346,"~/system-info/meta/main.yml"
+-'  1  0  ~/system-info/meta/main.yml
+|4,39,1,0,1724695298,"~/system-info/meta/main.yml"
+-'  2  16  ~/webservers/meta/main.yml
+|4,39,2,16,1724695274,"~/webservers/meta/main.yml"
+-'  2  16  ~/webservers/meta/main.yml
+|4,39,2,16,1724695274,"~/webservers/meta/main.yml"
+-'  1  0  ~/webservers/meta/main.yml
+|4,39,1,0,1724695218,"~/webservers/meta/main.yml"
+-'  1  0  ~/webservers/meta/main.yml
+|4,39,1,0,1724695218,"~/webservers/meta/main.yml"
+-'  10  11  ~/copy-files/meta/main.yml
+|4,39,10,11,1724695185,"~/copy-files/meta/main.yml"
+-'  10  11  ~/copy-files/meta/main.yml
+|4,39,10,11,1724695185,"~/copy-files/meta/main.yml"
+-'  10  11  ~/copy-files/meta/main.yml
+|4,39,10,11,1724695185,"~/copy-files/meta/main.yml"
+-'  10  11  ~/copy-files/meta/main.yml
+|4,39,10,11,1724695185,"~/copy-files/meta/main.yml"
+-'  1  14  ~/copy-files/meta/main.yml
+|4,39,1,14,1724695113,"~/copy-files/meta/main.yml"
+-'  1  14  ~/copy-files/meta/main.yml
+|4,39,1,14,1724695113,"~/copy-files/meta/main.yml"
+-'  1  14  ~/copy-files/meta/main.yml
+|4,39,1,14,1724695113,"~/copy-files/meta/main.yml"
+-'  1  14  ~/copy-files/meta/main.yml
+|4,39,1,14,1724695113,"~/copy-files/meta/main.yml"
+-'  9  15  ~/copy-files/tasks/main.yml
+|4,39,9,15,1724684084,"~/copy-files/tasks/main.yml"
+-'  9  15  ~/copy-files/tasks/main.yml
+|4,39,9,15,1724684084,"~/copy-files/tasks/main.yml"
+-'  9  15  ~/copy-files/tasks/main.yml
+|4,39,9,15,1724684084,"~/copy-files/tasks/main.yml"
+-'  9  15  ~/copy-files/tasks/main.yml
+|4,39,9,15,1724684084,"~/copy-files/tasks/main.yml"
+-'  9  15  ~/copy-files/tasks/main.yml
+|4,39,9,15,1724684084,"~/copy-files/tasks/main.yml"
+-'  9  15  ~/copy-files/tasks/main.yml
+|4,39,9,15,1724684084,"~/copy-files/tasks/main.yml"
+-'  9  15  ~/copy-files/tasks/main.yml
+|4,39,9,15,1724684084,"~/copy-files/tasks/main.yml"
 -'  9  15  ~/copy-files/tasks/main.yml
 |4,39,9,15,1724684084,"~/copy-files/tasks/main.yml"
 -'  9  14  ~/copy-files/tasks/main.yml
 |4,39,9,14,1724684073,"~/copy-files/tasks/main.yml"
+-'  9  14  ~/copy-files/tasks/main.yml
+|4,39,9,14,1724684073,"~/copy-files/tasks/main.yml"
+-'  9  14  ~/copy-files/tasks/main.yml
+|4,39,9,14,1724684073,"~/copy-files/tasks/main.yml"
+-'  9  14  ~/copy-files/tasks/main.yml
+|4,39,9,14,1724684073,"~/copy-files/tasks/main.yml"
+-'  9  14  ~/copy-files/tasks/main.yml
+|4,39,9,14,1724684073,"~/copy-files/tasks/main.yml"
+-'  9  14  ~/copy-files/tasks/main.yml
+|4,39,9,14,1724684073,"~/copy-files/tasks/main.yml"
+-'  9  14  ~/copy-files/tasks/main.yml
+|4,39,9,14,1724684073,"~/copy-files/tasks/main.yml"
+-'  9  14  ~/copy-files/tasks/main.yml
+|4,39,9,14,1724684073,"~/copy-files/tasks/main.yml"
+-'  9  14  ~/copy-files/tasks/main.yml
+|4,39,9,14,1724684057,"~/copy-files/tasks/main.yml"
+-'  9  14  ~/copy-files/tasks/main.yml
+|4,39,9,14,1724684057,"~/copy-files/tasks/main.yml"
+-'  9  14  ~/copy-files/tasks/main.yml
+|4,39,9,14,1724684057,"~/copy-files/tasks/main.yml"
+-'  9  14  ~/copy-files/tasks/main.yml
+|4,39,9,14,1724684057,"~/copy-files/tasks/main.yml"
+-'  9  14  ~/copy-files/tasks/main.yml
+|4,39,9,14,1724684057,"~/copy-files/tasks/main.yml"
+-'  9  14  ~/copy-files/tasks/main.yml
+|4,39,9,14,1724684057,"~/copy-files/tasks/main.yml"
+-'  9  14  ~/copy-files/tasks/main.yml
+|4,39,9,14,1724684057,"~/copy-files/tasks/main.yml"
 -'  9  14  ~/copy-files/tasks/main.yml
 |4,39,9,14,1724684057,"~/copy-files/tasks/main.yml"
 -'  6  35  ~/copy-files/tasks/main.yml
@@ -191,6 +398,48 @@ $apache2
 |4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
 -'  6  35  ~/copy-files/tasks/main.yml
 |4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
+-'  6  35  ~/copy-files/tasks/main.yml
+|4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
+-'  6  35  ~/copy-files/tasks/main.yml
+|4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
+-'  6  35  ~/copy-files/tasks/main.yml
+|4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
+-'  6  35  ~/copy-files/tasks/main.yml
+|4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
+-'  6  35  ~/copy-files/tasks/main.yml
+|4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
+-'  6  35  ~/copy-files/tasks/main.yml
+|4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
+-'  6  35  ~/copy-files/tasks/main.yml
+|4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
+-'  6  35  ~/copy-files/tasks/main.yml
+|4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
+-'  6  35  ~/copy-files/tasks/main.yml
+|4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
+-'  6  35  ~/copy-files/tasks/main.yml
+|4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
+-'  6  35  ~/copy-files/tasks/main.yml
+|4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
+-'  6  35  ~/copy-files/tasks/main.yml
+|4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
+-'  6  35  ~/copy-files/tasks/main.yml
+|4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
+-'  6  35  ~/copy-files/tasks/main.yml
+|4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
+-'  6  35  ~/copy-files/tasks/main.yml
+|4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
+-'  6  35  ~/copy-files/tasks/main.yml
+|4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
+-'  6  35  ~/copy-files/tasks/main.yml
+|4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
+-'  6  35  ~/copy-files/tasks/main.yml
+|4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
+-'  6  35  ~/copy-files/tasks/main.yml
+|4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
+-'  6  35  ~/copy-files/tasks/main.yml
+|4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
+-'  6  35  ~/copy-files/tasks/main.yml
+|4,39,6,35,1724683949,"~/copy-files/tasks/main.yml"
 -'  18  15  ~/demo_plyabook
 |4,39,18,15,1724683586,"~/demo_plyabook"
 -'  18  15  ~/demo_plyabook
@@ -207,180 +456,106 @@ $apache2
 |4,39,18,15,1724683586,"~/demo_plyabook"
 -'  18  15  ~/demo_plyabook
 |4,39,18,15,1724683586,"~/demo_plyabook"
--'  12  16  ~/demo_plyabook
-|4,39,12,16,1724683532,"~/demo_plyabook"
--'  12  16  ~/demo_plyabook
-|4,39,12,16,1724683532,"~/demo_plyabook"
--'  12  16  ~/demo_plyabook
-|4,39,12,16,1724683532,"~/demo_plyabook"
--'  12  16  ~/demo_plyabook
-|4,39,12,16,1724683532,"~/demo_plyabook"
--'  12  16  ~/demo_plyabook
-|4,39,12,16,1724683532,"~/demo_plyabook"
--'  12  16  ~/demo_plyabook
-|4,39,12,16,1724683532,"~/demo_plyabook"
--'  12  16  ~/demo_plyabook
-|4,39,12,16,1724683532,"~/demo_plyabook"
--'  12  16  ~/demo_plyabook
-|4,39,12,16,1724683532,"~/demo_plyabook"
--'  7  12  ~/copy-files/tasks/main.yml
-|4,39,7,12,1724683520,"~/copy-files/tasks/main.yml"
--'  7  12  ~/copy-files/tasks/main.yml
-|4,39,7,12,1724683520,"~/copy-files/tasks/main.yml"
--'  7  12  ~/copy-files/tasks/main.yml
-|4,39,7,12,1724683520,"~/copy-files/tasks/main.yml"
--'  7  12  ~/copy-files/tasks/main.yml
-|4,39,7,12,1724683520,"~/copy-files/tasks/main.yml"
--'  1  0  ~/copy-files/tasks/main.yml
-|4,39,1,0,1724683359,"~/copy-files/tasks/main.yml"
--'  1  0  ~/copy-files/tasks/main.yml
-|4,39,1,0,1724683359,"~/copy-files/tasks/main.yml"
--'  1  0  ~/copy-files/tasks/main.yml
-|4,39,1,0,1724683359,"~/copy-files/tasks/main.yml"
--'  1  0  ~/copy-files/tasks/main.yml
-|4,39,1,0,1724683359,"~/copy-files/tasks/main.yml"
--'  1  0  ~/copy-files/tasks/main.yml
-|4,39,1,0,1724683359,"~/copy-files/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  13  12  ~/webservers/tasks/main.yml
-|4,39,13,12,1724683128,"~/webservers/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
--'  8  28  ~/system-info/tasks/main.yml
-|4,39,8,28,1724675591,"~/system-info/tasks/main.yml"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
+-'  18  15  ~/demo_plyabook
+|4,39,18,15,1724683586,"~/demo_plyabook"
 
 # History of marks within files (newest to oldest):
+
+> ~/system-info/meta/main.yml
+	*	1724695345	0
+	"	2	16
+	^	2	17
+	.	2	17
+	+	1	12
+	+	22	10
+	+	22	13
+	+	4	14
+	+	3	27
+	+	2	17
+
+> ~/webservers/meta/main.yml
+	*	1724695273	0
+	"	2	16
+	^	2	17
+	.	2	16
+	+	1	12
+	+	22	10
+	+	22	18
+	+	4	14
+	+	3	29
+	+	2	16
+
+> ~/copy-files/meta/main.yml
+	*	1724695184	0
+	"	10	11
+	^	10	12
+	.	2	16
+	+	1	16
+	+	1	24
+	+	1	12
+	+	22	10
+	+	22	15
+	+	4	14
+	+	3	29
+	+	2	16
 
 > ~/copy-files/tasks/main.yml
 	*	1724684083	0
